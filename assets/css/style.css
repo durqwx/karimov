@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    list-style: none;
+}
+
+@font-face {
+    font-family: "Urbanist";
+    src: url(../fonts/static/Urbanist-Medium.ttf);
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "Urbanist";
+    src: url(../fonts/static/Urbanist-Bold.ttf);
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "Urbanist";
+    src: url(../fonts/static/Urbanist-SemiBold.ttf);
+    font-weight: 600;
+}
+
+.content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+body {
+    font-family: "Urbanist";
+}
+
+/* start header */
+header {
+    padding: 20px 0;
+    background-color: #1A3129;
+}
+
+.head {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 194.625px;
+}
+
+.green {
+    color: #CBEA7B;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    gap: 26px;
+}
+
+nav a {
+    font-size: 18px;
+    color: white;
+    font-weight: 600;
+}
+
+/* end */
+
+/* sec-block start */
+.sec-block {
+    margin: 0 auto;
+}
+
+.sec-block-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 80px;
+}
+
+.sec-block-info {
+    padding: 0 300px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+    color: #262626;
+    padding-top: 200px;
+}
+
+.sec-block-info p {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 150%;
+    color: #333333;
+    padding-top: 10px;
+    padding-bottom: 80px;
+}
+
+.sec-block-text p {
+    padding: 40px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 150%;
+}
+
+.sec-block-all {
+    border: 1px solid #F6FBE9;
+    border-radius: 16px;
+}
+
+.sec-block-girl {
+    padding: 30px 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
+    background-color: #F6FBE9;
+    border-radius: 0 0 16px 16px;
+}
+
+.girl {
+    width: 60px;
+}
+
+.sec-block-icon {
+    justify-content: center;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+}
+
+.icon {
+    width: 58px;
+}
+
+.shape-green {
+    width: 8px;
+    height: 8px;
+    background-color: #356554;
+    border-radius: 100%;
+}
+
+.shapes {
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+
+}
+
+.shape {
+    width: 8px;
+    height: 8px;
+    background-color: #E5F5BD;
+    border-radius: 100%;
+}
